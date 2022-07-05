@@ -17,4 +17,9 @@ export interface IBooksSearch {
     inputValue: string;
     changeHandler: (e: ChangeEvent<HTMLInputElement>) => void;
     books: IBook[];
+    isLoading: boolean;
+    selectSortingHandler: (e: ChangeEvent<HTMLSelectElement>) => void;
+    orderBy: string;
+    category: string;
+    selectCategoryHandler: (e: ChangeEvent<HTMLSelectElement>) => void;
 }

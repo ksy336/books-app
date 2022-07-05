@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="827086cd-21ab-41ab-95cd-217fa64f6fa7" name="Default Changelist" comment="" />
+    <list default="true" id="827086cd-21ab-41ab-95cd-217fa64f6fa7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/api/books/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/books/books-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/books/books-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books-Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Books/Books-Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books-Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Books/Books-Types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books-View.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Books/Books-View.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Books/Books.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +24,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
-        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2BNztgPMfxfNIm7PDtqNldVt16V" />
   <component name="ProjectViewState">
@@ -72,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656761575240</updated>
       <workItem from="1656761576714" duration="18072000" />
+      <workItem from="1657010283585" duration="12417000" />
     </task>
     <servers />
   </component>
@@ -83,25 +101,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="517" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1656762846643" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1656762119036">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1657019478401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1656762119036" />
-    <state width="1515" height="155" key="GridCell.Tab.0.bottom" timestamp="1657005707395">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1657019478401" />
+    <state width="1515" height="155" key="GridCell.Tab.0.bottom" timestamp="1657020994773">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657005707395" />
-    <state width="1515" height="155" key="GridCell.Tab.0.center" timestamp="1657005707394">
+    <state width="1515" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657020994773" />
+    <state width="1515" height="155" key="GridCell.Tab.0.center" timestamp="1657020994773">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1657005707394" />
-    <state width="1515" height="155" key="GridCell.Tab.0.left" timestamp="1657005707394">
+    <state width="1515" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1657020994773" />
+    <state width="1515" height="155" key="GridCell.Tab.0.left" timestamp="1657020994773">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1657005707394" />
-    <state width="1515" height="155" key="GridCell.Tab.0.right" timestamp="1657005707395">
+    <state width="1515" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1657020994773" />
+    <state width="1515" height="155" key="GridCell.Tab.0.right" timestamp="1657020994773">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1657005707395" />
+    <state width="1515" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1657020994773" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/Books/Books-View.tsx</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
