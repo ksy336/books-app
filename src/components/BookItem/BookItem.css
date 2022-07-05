@@ -1,0 +1,28 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.card-container > * {
+    flex-basis: 25%;
+}
+.card {
+    background: lightgray;
+    padding: 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.image-book {
+    text-align: center;
+}
+.image-book img {
+    max-width: 150px;
+}
+p {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
