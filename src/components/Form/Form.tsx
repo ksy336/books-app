@@ -1,18 +1,17 @@
 import React from 'react';
 import Button from '../Button/Button';
-import { IBooksSearch } from '../../pages/Books/Books-Types';
+import { IForm } from './Form-Types';
+import './Form.css';
 
 const Form = ({
   formSubmit,
   inputValue,
   changeHandler,
-  books,
-  isLoading,
   selectSortingHandler,
   orderBy,
   selectCategoryHandler,
   category,
-}: IBooksSearch) => {
+}: IForm) => {
   return (
     <form onSubmit={formSubmit} className="form-submit">
       <h2>Search for books</h2>
@@ -38,7 +37,7 @@ const Form = ({
           </select>
         </div>
         <div className="form__sorting-by">
-          <label htmlFor="">Sorting by</label>
+          <label>Sorting by</label>
           <select value={orderBy} onChange={selectSortingHandler}>
             <option value="relevance">Relevance</option>
             <option value="newest">Newest</option>

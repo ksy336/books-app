@@ -3,4 +3,5 @@ export interface IData {
     orderBy: string;
     maxResults: number;
     category: string;
+    visible: number;
 }

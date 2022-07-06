@@ -1,15 +1,19 @@
 button {
     display: inline-block;
-    background-color: white;
+    background-color: lightgray;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
     font-family: inherit;
-    font-weight: 500;
     border: none;
     padding: 1rem 2.5rem;
     border-radius: 10rem;
     cursor: pointer;
     align-self: center;
+}
+.button:hover {
+    transform: scale(1.1);
+    background: lightgray;
 }
 .disabled {
     background-color: darkgrey;

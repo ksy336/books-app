@@ -3,8 +3,10 @@ import BookItemView from './BookItem-View';
 import { IBookItem } from './BookItem-Types';
 import './BookItem.css';
 
-const BookItemContainer = ({ category, picture, title, authors }: IBookItem) => {
-  return <BookItemView category={category} picture={picture} title={title} authors={authors} />;
+const BookItemContainer = ({ category, picture, title, authors, id }: IBookItem) => {
+  return (
+    <BookItemView category={category} picture={picture} title={title} authors={authors} id={id} />
+  );
 };
 
 export default BookItemContainer;

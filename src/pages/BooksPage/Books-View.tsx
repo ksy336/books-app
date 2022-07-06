@@ -2,6 +2,7 @@ import React from 'react';
 import BookItem from '../../components/BookItem';
 import { IBook, IBooksSearch } from './Books-Types';
 import Form from '../../components/Form/Form';
+import Button from '../../components/Button/Button';
 
 const BooksView = ({
   formSubmit,
@@ -13,6 +14,9 @@ const BooksView = ({
   orderBy,
   selectCategoryHandler,
   category,
+  totalItems,
+  showMoreItems,
+  visible,
 }: IBooksSearch) => {
   return (
     <main className="wrapper books-wrapper">
@@ -33,12 +37,14 @@ const BooksView = ({
           <span>Loading...</span>
         </div>
       )}
+      {books?.length > 0 && <h2 className="books-results">Found {totalItems} results</h2>}
       {!isLoading && (
         <div className="card-container">
-          {books?.map((book: IBook) => {
+          {books?.slice(0, visible)?.map((book: IBook) => {
             return (
               <BookItem
                 key={book.id}
+                id={book.id}
                 category={book?.volumeInfo?.categories}
                 picture={book?.volumeInfo?.imageLinks?.thumbnail}
                 title={book?.volumeInfo?.title}
@@ -46,6 +52,11 @@ const BooksView = ({
               />
             );
           })}
+        </div>
+      )}
+      {books?.length > 0 && (
+        <div className="btn btn-load">
+          <Button onClick={showMoreItems}>Load more</Button>
         </div>
       )}
     </main>

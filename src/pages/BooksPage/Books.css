@@ -5,29 +5,7 @@
 .books-wrapper {
     padding-top: 50px;
 }
-.search {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-.form-submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: url("../../assets/images/books.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding: 15px;
-}
-.select-books {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 @keyframes spinner-spin {
     0% {
         transform: rotate(0deg);
@@ -56,4 +34,26 @@
 .spinner-block span {
     margin-top: 20px;
     font-size: 1.8rem;
+}
+.books-results {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-load {
+    display: inline-block;
+    background-color: grey;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: inherit;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    align-self: center;
 }

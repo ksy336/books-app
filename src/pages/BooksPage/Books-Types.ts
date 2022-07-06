@@ -22,4 +22,7 @@ export interface IBooksSearch {
     orderBy: string;
     category: string;
     selectCategoryHandler: (e: ChangeEvent<HTMLSelectElement>) => void;
+    totalItems: number;
+    showMoreItems: () => void;
+    visible: number;
 }
