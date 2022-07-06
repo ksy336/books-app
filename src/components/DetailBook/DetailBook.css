@@ -54,3 +54,85 @@ span {
     font-size: 1.6rem;
     line-height: 1.6rem;
 }
+@media screen and (max-width: 768px) {
+    .layout-2-column {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .layout-2-column > * {
+        flex-basis: 100%;
+    }
+    .picture-book {
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .picture-book img {
+        width: 300px;
+        max-width: 300px;
+        height: 400px;
+    }
+    .category-all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .book__title span {
+        font-size: 3.8rem;
+    }
+    .book-description span {
+        font-size: 3.6rem;
+        line-height: 3.6rem;
+    }
+    span {
+        font-size: 3.6rem;
+        font-weight: normal;
+        line-height: 3.4rem;
+        font-family: Gilroy-Medium, sans-serif;;
+    }
+}
+@media screen and (max-width: 414px) {
+    .layout-2-column {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .layout-2-column > * {
+        flex-basis: 100%;
+    }
+    .picture-book {
+       margin: 0 ;
+        padding: 20px;
+    }
+    .picture-book img {
+        width: 300px;
+        max-width: 300px;
+        height: 300px;
+        margin-left: 40px;
+    }
+    .category-all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    .book__title span {
+        font-size: 3.8rem;
+    }
+    .book-description span {
+        font-size: 3.6rem;
+        line-height: 3.6rem;
+    }
+    span {
+        font-size: 3.6rem;
+        font-weight: normal;
+        line-height: 3.4rem;
+        font-family: Gilroy-Medium, sans-serif;;
+    }
+}

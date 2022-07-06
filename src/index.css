@@ -12,5 +12,17 @@ body {
   margin: 0 auto;
   font-family: Gilroy-Medium, sans-serif;
 }
+@media screen and (max-width: 414px) {
+  body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 
 

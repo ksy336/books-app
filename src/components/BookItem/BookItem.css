@@ -46,3 +46,31 @@ p {
 .book-category {
     margin-top: 5px
 }
+@media screen and (max-width: 768px) {
+    .card-container > * {
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    p {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: bold;
+    }
+    .card {
+        height: 450px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .card-container > * {
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+    p {
+        font-size: 3.5rem;
+        line-height: 2.5rem;
+        font-weight: bold;
+    }
+    .card {
+        height: 550px;
+    }
+}

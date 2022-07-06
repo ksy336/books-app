@@ -2,37 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="827086cd-21ab-41ab-95cd-217fa64f6fa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/DetailBook/DetailBook-Types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DetailBook/DetailBook-View.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DetailBook/DetailBook.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DetailBook/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form/Form-Types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form/Form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/DetailPage/Detail-Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/DetailPage/Detail-View.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/DetailPage/Detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/DetailPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NoFoundPage/NoFound-Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NoFoundPage/NoFound-View.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NoFoundPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NoFoundPage/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/slices/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DetailBook/DetailBook-Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/books/books-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/books/books-service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/books/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/books/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BookItem/BookItem-Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookItem/BookItem-Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BookItem/BookItem-Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookItem/BookItem-Types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BookItem/BookItem-View.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookItem/BookItem-View.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BookItem/BookItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookItem/BookItem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books-Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BooksPage/Books-Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books-Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BooksPage/Books-Types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books-View.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BooksPage/Books-View.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BooksPage/Books.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Books/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BooksPage/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DetailBook/DetailBook.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DetailBook/DetailBook.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/BooksPage/Books-Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BooksPage/Books-Container.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/slices/book-slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/book-slice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +90,7 @@
       <updated>1656761575240</updated>
       <workItem from="1656761576714" duration="18072000" />
       <workItem from="1657010283585" duration="14801000" />
-      <workItem from="1657025787704" duration="23804000" />
+      <workItem from="1657025787704" duration="30212000" />
     </task>
     <servers />
   </component>
@@ -129,22 +106,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1657095135010" />
-    <state width="1515" height="164" key="GridCell.Tab.0.bottom" timestamp="1657108357755">
+    <state width="1515" height="164" key="GridCell.Tab.0.bottom" timestamp="1657111621092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657108357755" />
-    <state width="1515" height="164" key="GridCell.Tab.0.center" timestamp="1657108357754">
+    <state width="1515" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657111621092" />
+    <state width="1515" height="164" key="GridCell.Tab.0.center" timestamp="1657111621092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1657108357754" />
-    <state width="1515" height="164" key="GridCell.Tab.0.left" timestamp="1657108357754">
+    <state width="1515" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1657111621092" />
+    <state width="1515" height="164" key="GridCell.Tab.0.left" timestamp="1657111621092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1657108357754" />
-    <state width="1515" height="164" key="GridCell.Tab.0.right" timestamp="1657108357755">
+    <state width="1515" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1657111621092" />
+    <state width="1515" height="164" key="GridCell.Tab.0.right" timestamp="1657111621092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1657108357755" />
+    <state width="1515" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1657111621092" />
     <state x="486" y="183" key="refactoring.ChangeSignatureDialog" timestamp="1657102226577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

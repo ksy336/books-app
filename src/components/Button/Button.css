@@ -20,3 +20,33 @@ button {
     color: salmon;
     cursor: no-drop;
 }
+@media screen and (max-width: 414px) {
+    button {
+        display: inline-block;
+        background-color: lightgray;
+        color: black;
+        font-size: 3.6rem;
+        font-weight: bold;
+        font-family: inherit;
+        border: none;
+        padding: 3rem 4.5rem;
+        border-radius: 10rem;
+        cursor: pointer;
+        align-self: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    button {
+        display: inline-block;
+        background-color: lightgray;
+        color: black;
+        font-size: 3.6rem;
+        font-weight: bold;
+        font-family: inherit;
+        border: none;
+        padding: 3rem 4.5rem;
+        border-radius: 10rem;
+        cursor: pointer;
+        align-self: center;
+    }
+}

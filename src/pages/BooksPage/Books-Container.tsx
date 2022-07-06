@@ -19,24 +19,9 @@ const BooksContainer = () => {
   );
   const [inputValue, setInputValue] = useState('');
   const [maxResults] = useState(40);
-  const [visible, setVisible] = useState(3);
+  const [visible, setVisible] = useState(8);
 
-  const showMoreItems = async () => {
-    setVisible((prev) => prev + 30);
-    const paginatedBooks = await booksService.getAllBooks(
-      inputValue,
-      orderBy,
-      maxResults,
-      category,
-      visible
-    );
-  };
-  const changeHandler = (e: ChangeEvent<HTMLInputElement>) => {
-    setInputValue(e.target.value);
-  };
-
-  const formSubmit = async (e: ChangeEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const fetchAllBooks = async () => {
     const booksData = await booksService.getAllBooks(
       inputValue,
       orderBy,
@@ -47,6 +32,18 @@ const BooksContainer = () => {
     dispatch(getBooks(booksData));
     dispatch(getBooksAsync({ inputValue, orderBy, maxResults, category, visible }));
     dispatch(getTotalItems(booksData.totalItems));
+  };
+  const showMoreItems = async () => {
+    setVisible((prev) => prev + 30);
+    await fetchAllBooks();
+  };
+  const changeHandler = (e: ChangeEvent<HTMLInputElement>) => {
+    setInputValue(e.target.value);
+  };
+
+  const formSubmit = async (e: ChangeEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    await fetchAllBooks();
   };
 
   const selectSortingHandler = (e: ChangeEvent<HTMLSelectElement>) => {

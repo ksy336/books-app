@@ -20,16 +20,14 @@ const BookItemView = ({ category, picture, title, authors, id }: IBookItem) => {
           </div>
           <div className="book-info-block">
             <div className="book-category">
-              {category?.map((category: ReactNode) => (
-                <p key={Math.random().toString()}>{category}</p>
-              ))}
+              <p className="category">{category}</p>
             </div>
             <div className="book-title">
               <p>{title}</p>
             </div>
             <div className="book-authors">
               {authors?.map((author: ReactNode) => (
-                <p key={Math.random().toString()}>{author}</p>
+                <p key={id}>{author}</p>
               ))}
             </div>
           </div>

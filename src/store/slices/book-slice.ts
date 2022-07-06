@@ -25,7 +25,7 @@ const bookSlice = createSlice({
     initialState,
     reducers: {
         getBooks(state, action) {
-            state.books = action.payload.items;
+            state.books = [ ...action.payload.items];
         },
         filterForDetailsPage(state, action) {
             state.filteredBooks = state.books.filter((book) => book.id === action.payload);
@@ -45,7 +45,7 @@ const bookSlice = createSlice({
     },
     extraReducers: {
         [getBooksAsync.fulfilled.type]: (state, action) => {
-            state.books = action.payload.items;
+            state.books = [...action.payload.items];
             state.isLoading = false;
         },
         [getBooksAsync.pending.type]: (state) => {

@@ -59,3 +59,71 @@ option {
     margin-top: 17px;
     padding-left: 20px;
 }
+@media screen and (max-width: 768px) {
+    .input-search input {
+        max-width: 600px;
+        width: 600px;
+        height: 60px;
+    }
+    .form-submit h2 {
+        margin-top: 50px;
+        font-size: 6rem;
+        line-height: 5.7rem;
+    }
+    .select-books {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    .select-books > * {
+        margin-top: 20px;
+    }
+    label {
+        font-size: 4.5rem;
+        line-height: 4.7rem;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    select {
+        height: 50px;
+        width: 200px;
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+    option {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 414px) {
+    .input-search input {
+        max-width: 300px;
+        width: 300px;
+        height: 70px;
+    }
+    .form-submit h2 {
+        font-size: 5rem;
+        line-height: 5.7rem;
+        text-align: center;
+    }
+    .select-books {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    label {
+        font-size: 4rem;
+        line-height: 4.7rem;
+        font-weight: bold;
+    }
+    select {
+        height: 50px;
+        width: 200px;
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+    option {
+        font-size: 1.5rem;
+    }
+}
