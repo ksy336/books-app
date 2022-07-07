@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from 'antd';
 import { IProps } from './types';
+import Button from '../../components/Button/Button';
 
 const NoFoundView = ({ handleClick }: IProps) => {
   return (

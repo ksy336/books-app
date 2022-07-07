@@ -41,9 +41,9 @@ const BooksContainer = () => {
     setInputValue(e.target.value);
   };
 
-  const formSubmit = async (e: ChangeEvent<HTMLFormElement>) => {
+  const formSubmit = (e: ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
-    await fetchAllBooks();
+    fetchAllBooks();
   };
 
   const selectSortingHandler = (e: ChangeEvent<HTMLSelectElement>) => {
